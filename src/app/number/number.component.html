@@ -1,0 +1,10 @@
+<div id="group">
+	<div class="form-group row" >
+	  <label for="example-tel-input" class="col-3 col-form-label">Enter your phone:</label>
+	  <div class="col-9">
+	    <input class="form-control" [(ngModel)]="fact" name="fact" maxlength="9" type="text">
+	  </div>
+	</div>
+
+	<div class="correctNumber">{{fact|factorial}}</div>
+</div>

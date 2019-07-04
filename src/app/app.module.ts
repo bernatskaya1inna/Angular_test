@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FactorialPipe } from './factorial.pipe';
+import { PhonePipe } from './phone.pipe';
 import { FormsModule }   from '@angular/forms';
 import { NumberComponent } from './number/number.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FactorialPipe,
+    PhonePipe,
     NumberComponent
   ],
   imports: [

@@ -1,9 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'factorial'
+  name: 'phone'
 })
-export class FactorialPipe implements PipeTransform {
+export class PhonePipe implements PipeTransform {
 
   transform(value: number, args?: any): number {
     var tel=value.toString().trim().replace(/^\+/, '')
